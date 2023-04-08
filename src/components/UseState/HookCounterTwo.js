@@ -12,7 +12,7 @@ const HookCounterTwo = () => {
 	return (
 		<div>
 			<h4>Using prevState</h4>
-			Count - {count}
+			<p>Count - {count}</p>
 			<button onClick={() => setCount(initialCount)}> Reset</button>
 			<button onClick={() => setCount(prevCount => prevCount + 1)}>
 				{" "}

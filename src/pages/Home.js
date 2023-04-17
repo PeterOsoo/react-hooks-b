@@ -11,6 +11,10 @@ const Home = () => {
 						{" "}
 						<Link to="/use-state">Use State hooks</Link>
 					</li>
+					<li>
+						{" "}
+						<Link to="/use-effect">Use Effect hooks</Link>
+					</li>
 				</ul>
 			</nav>
 		</div>

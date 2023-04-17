@@ -5,6 +5,7 @@ import { Route, Routes } from "react-router-dom"
 import UseState from "./components/UseState/UseState"
 import About from "./pages/About"
 import Home from "./pages/Home"
+import UseEffect from "./components/UseEffect/UseEffect"
 
 const App = () => {
 	return (
@@ -14,6 +15,7 @@ const App = () => {
 				<Route path="/" element={<Home />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/use-state" element={<UseState />} />
+				<Route path="/use-effect" element={<UseEffect />} />
 			</Routes>
 		</>
 	)

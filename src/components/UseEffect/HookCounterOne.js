@@ -9,6 +9,7 @@ const HookCounterOne = () => {
 
 	return (
 		<div>
+			<h4>useEffect after render</h4>
 			<button onClick={() => setCount(count + 1)}>
 				Clicked {count} times{" "}
 			</button>

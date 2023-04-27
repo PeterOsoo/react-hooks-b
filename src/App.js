@@ -2,10 +2,10 @@ import React from "react"
 import "./App.css"
 import { Route, Routes } from "react-router-dom"
 
-import UseState from "./components/UseState/UseState"
 import About from "./pages/About"
 import Home from "./pages/Home"
-import UseEffect from "./components/UseEffect/UseEffect"
+import UseState from "./pages/UseState"
+import UseEffect from "./pages/UseEffect"
 
 const App = () => {
 	return (

@@ -1,6 +1,7 @@
 import HooksCounterOne from "../components/UseEffect/HookCounterOne"
 // import HookMouse from "./HookMouse"
 import MouseContainer from "../components/UseEffect/MouseContainer"
+import IntervalHookCounter from "../components/UseEffect/IntervalHookCounter"
 
 const UseEffect = () => {
 	return (
@@ -9,6 +10,7 @@ const UseEffect = () => {
 			<HooksCounterOne />
 			{/* <HookMouse /> */}
 			<MouseContainer />
+			<IntervalHookCounter />
 		</div>
 	)
 }

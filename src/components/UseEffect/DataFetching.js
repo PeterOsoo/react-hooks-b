@@ -18,7 +18,7 @@ const DataFetching = () => {
 
 	return (
 		<div>
-			<h4>DataFetching</h4>
+			<h4>Data Fetching</h4>
 			<ul>
 				{posts.map(post => (
 					<li key={post.id}> {post.title} </li>

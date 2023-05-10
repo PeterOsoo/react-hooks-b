@@ -19,6 +19,7 @@ const DataFetching = () => {
 	return (
 		<div>
 			<h4>Data Fetching</h4>
+			<p>Fetch 100 posts from API</p>
 			<ul>
 				{posts.map(post => (
 					<li key={post.id}> {post.title} </li>

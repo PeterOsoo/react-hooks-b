@@ -4,6 +4,7 @@ import MouseContainer from "../components/UseEffect/MouseContainer"
 import IntervalHookCounter from "../components/UseEffect/IntervalHookCounter"
 import IntervalHookCounterTwo from "../components/UseEffect/IntervalHookCounterTwo"
 import DataFetching from "../components/UseEffect/DataFetching"
+import DataFetchingTwo from "../components/UseEffect/DataFetchingTwo"
 
 const UseEffect = () => {
 	return (
@@ -15,6 +16,7 @@ const UseEffect = () => {
 			<IntervalHookCounter />
 			<IntervalHookCounterTwo />
 			<DataFetching />
+			<DataFetchingTwo />
 		</div>
 	)
 }

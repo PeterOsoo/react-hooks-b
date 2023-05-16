@@ -1,5 +1,10 @@
+import ComponentC from "../components/UseContext/ComponentC"
 const useContext = () => {
-	return <div>useContext</div>
+	return (
+		<div>
+			<ComponentC />
+		</div>
+	)
 }
 
 export default useContext

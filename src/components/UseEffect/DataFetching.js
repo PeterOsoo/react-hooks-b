@@ -17,14 +17,14 @@ const DataFetching = () => {
 	}, [])
 
 	return (
-		<div>
+		<div className="container">
 			<h4>Data Fetching</h4>
 			<p>Fetch 100 posts from API</p>
-			<ul>
+			<ol>
 				{posts.map(post => (
 					<li key={post.id}> {post.title} </li>
 				))}
-			</ul>
+			</ol>
 		</div>
 	)
 }

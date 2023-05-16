@@ -15,6 +15,10 @@ const Home = () => {
 						{" "}
 						<Link to="/use-effect">Use Effect hooks</Link>
 					</li>
+					<li>
+						{" "}
+						<Link to="/use-context">Use Context hooks</Link>
+					</li>
 				</ul>
 			</nav>
 		</div>

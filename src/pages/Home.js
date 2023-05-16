@@ -6,7 +6,7 @@ const Home = () => {
 		<div>
 			Home Page
 			<nav>
-				<ul>
+				<ol>
 					<li>
 						{" "}
 						<Link to="/use-state">Use State hooks</Link>
@@ -19,7 +19,11 @@ const Home = () => {
 						{" "}
 						<Link to="/use-context">Use Context hooks</Link>
 					</li>
-				</ul>
+					<li>
+						{" "}
+						<Link to="/use-reducer">Use Reducer hooks</Link>
+					</li>
+				</ol>
 			</nav>
 		</div>
 	)

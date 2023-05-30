@@ -3,6 +3,7 @@ import CounterOne from "../components/UseReducer/CounterOne"
 import CounterTwo from "../components/UseReducer/CounterTwo"
 import CounterThree from "../components/UseReducer/CounterThree"
 import UseContext from "../components/UseReducer/UseContext"
+import DataFetchingOne from "../components/UseReducer/DataFetchingOne"
 
 const UseReducer = () => {
 	return (
@@ -13,6 +14,7 @@ const UseReducer = () => {
 			<CounterTwo />
 			<CounterThree />
 			<UseContext />
+			<DataFetchingOne />
 		</div>
 	)
 }

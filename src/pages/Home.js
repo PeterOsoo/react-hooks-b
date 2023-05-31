@@ -23,6 +23,10 @@ const Home = () => {
 						{" "}
 						<Link to="/use-reducer">Use Reducer hooks</Link>
 					</li>
+					<li>
+						{" "}
+						<Link to="/use-callback">Use Callback hook</Link>
+					</li>
 				</ol>
 			</nav>
 		</div>

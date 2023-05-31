@@ -27,6 +27,14 @@ const Home = () => {
 						{" "}
 						<Link to="/use-callback">Use Callback hook</Link>
 					</li>
+					<li>
+						{" "}
+						<Link to="/use-memo">Use Memo hook</Link>
+					</li>
+					<li>
+						{" "}
+						<Link to="/use-ref">Use Ref hook</Link>
+					</li>
 				</ol>
 			</nav>
 		</div>

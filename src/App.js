@@ -9,6 +9,8 @@ import UseEffect from "./pages/UseEffect"
 import UseContext from "./pages/UseContext"
 import UseReducer from "./pages/UseReducer"
 import UseCallBack from "./pages/UseCallBack"
+import UseMemo from "./pages/UseMemo"
+import UseRef from "./pages/UseRef"
 
 const App = () => {
 	return (
@@ -22,6 +24,8 @@ const App = () => {
 				<Route path="/use-context" element={<UseContext />} />
 				<Route path="/use-reducer" element={<UseReducer />} />
 				<Route path="/use-callback" element={<UseCallBack />} />
+				<Route path="/use-memo" element={<UseMemo />} />
+				<Route path="/use-ref" element={<UseRef />} />
 			</Routes>
 		</>
 	)

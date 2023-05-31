@@ -1,7 +1,10 @@
-import React from "react"
-
+import ParentComponent from "../components/UseCallBack/ParentComponent"
 const UseCallBack = () => {
-	return <div>UseCallBack</div>
+	return (
+		<div>
+			<ParentComponent />
+		</div>
+	)
 }
 
 export default UseCallBack

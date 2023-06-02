@@ -1,8 +1,8 @@
-import React from "react"
 import DocTitleOne from "../components/CustomHooks/DocTitleOne"
 import DocTitleTwo from "../components/CustomHooks/DocTitleTwo"
 import CounterOne from "../components/CustomHooks/CounterOne"
 import CounterTwo from "../components/CustomHooks/CounterTwo"
+import UserForm from "../components/CustomHooks/UserForm"
 
 const CustomHooks = () => {
 	return (
@@ -16,6 +16,9 @@ const CustomHooks = () => {
 			<h4>useCounter Hook</h4>
 			<CounterOne />
 			<CounterTwo />
+
+			<h4>useInput custom Hook</h4>
+			<UserForm />
 		</div>
 	)
 }

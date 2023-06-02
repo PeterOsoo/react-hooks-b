@@ -11,6 +11,7 @@ import UseReducer from "./pages/UseReducer"
 import UseCallBack from "./pages/UseCallBack"
 import UseMemo from "./pages/UseMemo"
 import UseRef from "./pages/UseRef"
+import CustomHooks from "./pages/CustomHooks"
 
 const App = () => {
 	return (
@@ -26,6 +27,7 @@ const App = () => {
 				<Route path="/use-callback" element={<UseCallBack />} />
 				<Route path="/use-memo" element={<UseMemo />} />
 				<Route path="/use-ref" element={<UseRef />} />
+				<Route path="/custom-hooks" element={<CustomHooks />} />
 			</Routes>
 		</>
 	)

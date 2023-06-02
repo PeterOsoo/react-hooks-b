@@ -35,6 +35,10 @@ const Home = () => {
 						{" "}
 						<Link to="/use-ref">Use Ref hook</Link>
 					</li>
+					<li>
+						{" "}
+						<Link to="/custom-hooks">Custom Hooks</Link>
+					</li>
 				</ol>
 			</nav>
 		</div>
